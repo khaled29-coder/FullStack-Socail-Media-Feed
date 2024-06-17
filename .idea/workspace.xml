@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db839611-d1a1-4a58-ab10-73c2e645b4d7" name="Changes" comment="" />
+    <list default="true" id="db839611-d1a1-4a58-ab10-73c2e645b4d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SocailMeadiFeed/src/main/java/com/fullstack/model/Follower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocailMeadiFeed/src/main/java/com/fullstack/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocailMeadiFeed/src/main/java/com/fullstack/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocailMeadiFeed/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocailMeadiFeed/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,23 +18,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hwJLVg4pdleaAngShcTHtRsEA1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Cabdi qani xusyen/Desktop/React js/project/Back-end/SocailMeadiFeed"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cabdi qani xusyen/Desktop/React js/project/Back-end/SocailMeadiFeed&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
