@@ -3,6 +3,7 @@ package com.fullstack.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
@@ -15,7 +16,8 @@ import java.time.LocalDateTime;
 public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int commentId;
+    @Column(name = "comment_id")
+    private Long commentId;
 
     @ManyToOne
     @JoinColumn(name = "post_id")
@@ -25,9 +27,9 @@ public class Comment {
     @JoinColumn(name = "user_id")
     private User userId;
 
-    @Column(name = "content" , nullable = false)
+    @Column(name = "content", columnDefinition = "TEXT")
     private String content;
 
     @Column(name = "created_at")
-    private LocalDateTime created_at;
+    private Timestamp created_at;
 }

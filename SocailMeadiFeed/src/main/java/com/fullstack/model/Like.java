@@ -3,6 +3,7 @@ package com.fullstack.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 
@@ -16,11 +17,12 @@ import java.time.LocalDateTime;
 public class Like {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    @Column(name = "like_id")
+    private Long likeId;
 
     @ManyToOne
     @JoinColumn(name = "post_id")
-    private Post postid;
+    private Post postId;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
@@ -30,5 +32,5 @@ public class Like {
     private int likes;
 
     @Column(name = "created_at")
-    private LocalDateTime created_at;
+    private Timestamp created_at;
 }
